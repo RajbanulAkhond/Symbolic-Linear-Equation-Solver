@@ -1,0 +1,46 @@
+
+void read_matrix();
+void read_dmatrix();
+void display_matrix(int row2,int coloum2,int aray[row2][coloum2]);
+void display_dmatrix(int row2,int coloum2,float aray[row2][coloum2]);
+void tran();
+void tran_arg(int row1,int coloum1,int arg[row1][coloum1]);
+void prop();
+void prop_arg(int row,int coloum,int arg[row][coloum]);
+void prop_arg_p(int row,int coloum,int row_p,int coloum_p ,int arg[row][coloum]);
+void dprop_arg(int row,int coloum,int row_p,int coloum_p,float arg[row][coloum]);
+void donate_n(int row3,int coloum3,int aray1[row3][coloum3]);
+void donate_m(int row3,int coloum3,int aray1[row3][coloum3]);
+void donate_dn(int row3,int coloum3,float aray1[row3][coloum3]);
+void donate_dm(int row3,int coloum3,float aray1[row3][coloum3]);
+void donate_arg(int row3,int coloum3,int aray1[row3][coloum3],int aray3[row3][coloum3]);
+void donate_darg(int row3,int coloum3,float aray1[row3][coloum3],float aray3[row3][coloum3]);
+void exchange();
+void exchange_d();
+int divi(int aray2[2][2]);
+float div_d(float aray2[2][2]);
+void div_u(int r,int c,float p);
+void show_result_a(int r);
+void show_result(int r);
+void adj(int aray5[3][3]);
+void vec_mul(int row1,int coloum1,int row2,int coloum2,int aray1[row1][coloum1],int aray2[row2][coloum2]);
+void dvec_mul(int row1,int coloum1,int row2,int coloum2,float aray1[row1][coloum1],float aray2[row2][coloum2]);
+void copyr(int* r);
+void copyc(int* c);
+void copy_result(float* r);
+void emp();
+void emp_d();
+void emp_arg(int row4,int coloum4,int aray4[row4][coloum4]);
+void make_darg(int row,int coloum,int aray[row][coloum]);
+
+int read_char(int i,char dat[i]);
+void display_char(int k,char dat[k]);
+void sorter(int a,int b,char s[]);
+int counter(int k,char dat[k]);
+void unknown(int k,char dat[k],char des[3]);
+int floatChecking(float pro);
+void showIresult(char c,float rf);
+void showFresult(char c,float rf);
+void showResult3D(char res[5],float result[3][1]);
+void showResult2D(char res[5],float result[2]);
+
