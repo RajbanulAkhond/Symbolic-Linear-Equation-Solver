@@ -1,2 +1,2 @@
 # Matrix
-A library for matrix manupulation
+A library for matrix manupulation written in C
